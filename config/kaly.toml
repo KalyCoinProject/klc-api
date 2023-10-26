@@ -1,0 +1,18 @@
+# Valid TOML config file
+data-path="/node/data"
+logging="INFO"
+
+#Network
+bootnodes=["enode://bd1782617ae151ba6da627a35a1babc0a40ae127a718cdc13322acb357411f095d56db6141c99d7f8b63b7ce896ffffbadea34a4471bca297c916a94e1d9b818@169.197.143.193:30303","enode://3ea0e690890c824cb39867c9da0e201764ecd2960c2609ecceb40b3e48d374424f791d32d87eaf7430249649b5c45673178454455b22b133458afc5ddf126c3a@169.197.143.209:30303"]
+node-private-key-file="/node/data"
+
+# Chain
+genesis-file="/node/genesis.json"
+
+rpc-http-enabled=true
+rpc-http-api=["ETH", "NET", "WEB3"]
+rpc-http-authentication-enabled=true
+rpc-http-authentication-jwt-public-key-file="/path/to/jwtRS256.key.pub"
+rpc-http-tls-enabled=true
+rpc-http-tls-keystore-file="/path/to/keystore.p12"
+rpc-http-tls-keystore-password-file="/path/to/password.txt"

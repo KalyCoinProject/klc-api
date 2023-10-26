@@ -1,0 +1,9 @@
+chain-id="[CHAIN_ID]"
+http-listen-port=8545
+tls-keystore-file="[PATH_TO_KEYSTORE]"
+tls-keystore-password-file="[PATH_TO_PASSWORD_FILE]"
+tls-known-clients-file="[PATH_TO_CLIENTS_FILE]"
+vault-host="[VAULT_HOST]"
+vault-port="[VAULT_PORT]"
+vault-token="[VAULT_TOKEN]"
+secret-path="[SECRET_PATH]"

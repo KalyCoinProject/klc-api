@@ -1,0 +1,41 @@
+{
+  "name": "klc-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An API to interact with KalyChain to buy KLC via AlchemyPay",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "mocha --require @babel/register test/unit/unitTests.js",
+    "test:integration": "mocha --require @babel/register test/integration/integrationTests.js",
+    "test": "npm run test:unit && npm run test:integration",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.cipherlabs.org/TheDude/klc-api"
+  },
+  "keywords": [
+    "API",
+    "AlchemyPay",
+    "KalyChain"
+  ],
+  "author": "NicoDFS a.k.a TheDude",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "nock": "^13.3.6",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/register": "^7.22.15",
+    "chai": "^4.3.8",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
