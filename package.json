@@ -24,6 +24,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
+    "ethers": "^6.8.0",
     "express": "^4.17.1",
     "express-winston": "^4.2.0",
     "nock": "^13.3.6",
@@ -36,6 +37,7 @@
     "@babel/register": "^7.22.15",
     "chai": "^4.3.8",
     "chai-http": "^4.4.0",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
   }
 }

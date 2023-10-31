@@ -1,0 +1,12 @@
+{
+    "orderNo": "sampleOrder123",
+    "crypto": "KLC",
+    "cryptoAmount": "1",
+    "cryptoPrice": "1",
+    "txHash": "0x084e9c4d47d5ee7d760c50cf72cf54f7550ea712f5a43cf7013c100f2e6dff0c",
+    "network": "KALY",
+    "networkFee": "0.000021000",
+    "address": "0xae51f2efe70e57b994be8f7f97c4dc824c51802a",
+    "status": "success",
+    "blockExplorer": "https://kalyscan.io/tx/0x084e9c4d47d5ee7d760c50cf72cf54f7550ea712f5a43cf7013c100f2e6dff0c"
+}
