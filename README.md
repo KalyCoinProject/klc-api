@@ -10,7 +10,7 @@ This API serves as a bridge between AlchemyPay and KalyChain, allowing users to 
 
 1. **Clone the Repository**:
 ```bash
-git clone https://git.cipherlabs.org/TheDude/klc-api.git
+git clone https://github.com/kalycoinproject/klc-api.git
 ```
 ```bash
 cd klc-api
