@@ -17,14 +17,10 @@
         "requesttimeoutseconds" : 4,
         "blockreward" : "3000000000000000000",
         "baseFeePerGas" : "0x834"
-      }
     },
     "transitions" : {
       "qbft" : [ {
-        "block" : 4576000,
-        "blockreward" : "1500000000000000000"
-      }, {
-        "block" : 9152000,
+        "block" : 9434168,
         "blockreward" : "750000000000000000"
       }, {
         "block" : 13728000,
@@ -111,6 +107,7 @@
         "block" : 137280000,
         "blockreward" : "0"
       } ]
+	 }
     },
     "nonce" : "0x0",
     "timestamp" : "0x0",
